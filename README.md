@@ -28,15 +28,17 @@ Built for the *NASA Space Apps Challenge 2025*, it helps users explore how aster
 ---
 
 ## Environment Variables
-Create a `.env` file in the root directory with:
+Replace the placeholder values with your own credentials:
 
 ```bash
 PORT=8787
-NASA_KEY=your_nasa_api_key
-GEONAMES_USER=your_geonames_username
+NASA_KEY=your_nasa_api_key          # Replace with your personal NASA API key
+GEONAMES_USER=your_geonames_username # Replace with your GeoNames username
 REACT_APP_API_BASE=http://localhost:8787
 ```
----
+
+A free NASA API key can be obtained from [https://api.nasa.gov](https://api.nasa.gov).
+
 ## How It Works
 
 1. **Backend Data Retrieval**  
